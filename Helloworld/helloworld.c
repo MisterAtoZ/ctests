@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include "helloworld.h"
 
-int main(void)
+int main(void) 
 {
-        printf("Hello world!!\n");
-        return 0;
+	printf("%s\n", headerString);
+	return 0;
 }
